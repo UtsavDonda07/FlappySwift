@@ -4,14 +4,14 @@ import pygame
 from pygame.locals import * # Basic pygame imports
 
 # Global Variables for the game
-FPS = 60
-SCREENWIDTH = 1500
-SCREENHEIGHT = 1300
+FPS = 32
+SCREENWIDTH = 290  
+SCREENHEIGHT = 550
 SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
 GROUNDY = SCREENHEIGHT * 0.8
 GAME_SPRITES = {}
 GAME_SOUNDS = {}
-PLAYER = 'gallery/sprites/witch.png'
+PLAYER = 'gallery/sprites/bird.png'
 BACKGROUND = 'gallery/sprites/background.png'
 PIPE = 'gallery/sprites/pipe.png'
 
