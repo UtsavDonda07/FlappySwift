@@ -12,7 +12,7 @@ GROUNDY = SCREENHEIGHT * 0.8
 GAME_SPRITES = {}
 GAME_SOUNDS = {}
 PLAYER = 'gallery/sprites/witch.png'
-BACKGROUND = 'gallery/sprites/b.png'
+BACKGROUND = 'gallery/sprites/background.png'
 PIPE = 'gallery/sprites/pipe.png'
 
 def welcomeScreen():
@@ -177,8 +177,6 @@ def getRandomPipe():
         {'x': pipeX, 'y': y2} #lower Pipe
     ]
     return pipe
-
-
 
 
 
